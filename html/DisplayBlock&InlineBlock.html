@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #google {
+            max-width: 100%;
+            max-height: 100%;
+            width: 700px;
+            margin-left: 1040px;
+            object-position: center;
+            display: block;
+            mix-blend-mode: multiply;
+        }
+        
+        #url {
+            border: none;
+            border-radius: 37px;
+            box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.2);
+            padding-left: 35px;
+            object-position: center;
+            width: 370px;
+            padding-top: 5px;
+            font-size: 28px;
+            padding-bottom: 5px;
+            max-width: 100%;
+            max-height: 100%;
+            height: 70px;
+            width: 1000px;
+            position: relative;
+            margin-left: 900px;
+        }
+        
+        .uber {
+            border-width: 2px;
+            border-style: solid;
+            margin-left: 900px;
+            margin-right: 1130px;
+        }
+        
+        .ride {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 70px;
+            margin-top: 6px;
+            margin-left: 17px;
+        }
+        
+        #pickup {
+            background-color: rgb(213, 211, 211);
+            height: 70px;
+            width: 835px;
+            margin-left: 17px;
+            border: none;
+            margin-bottom: 1px;
+            margin-top: 5px;
+            padding-left: 15px;
+            font-size: 25px;
+        }
+        
+        #destination {
+            background-color: rgb(213, 211, 211);
+            height: 70px;
+            width: 835px;
+            padding-left: 15px;
+            margin-left: 17px;
+            margin-top: 15px;
+            border: none;
+            margin-bottom: 55px;
+            font-size: 25px;
+        }
+        
+        .requestNow {
+            margin-left: 17px;
+            border: none;
+            background-color: rgb(36, 36, 36);
+            object-position: center;
+            color: white;
+            padding: 25px 50px;
+            font-size: 25px;
+            margin-bottom: 22px;
+            cursor: pointer;
+        }
+        
+        .schedule {
+            margin-left: 25px;
+            background-color: rgb(213, 211, 211);
+            padding: 25px 50px;
+            border: none;
+            cursor: pointer;
+            font-size: 25px;
+        }
+        
+        #id {
+            margin-top: 20px;
+        }
+        
+        #pickup::placeholder {
+            text-align: left;
+            font-size: 25px;
+        }
+        
+        #destination::placeholder {
+            text-align: left;
+            font-size: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img id="google" src="unnamed.webp" alt="google">
+        <input id="url" type="text" placeholder="Search Google or type a URL">
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="uber">
+        <p class="ride">
+            Request a Ride now
+        </p>
+        <input id="pickup" type="text" placeholder="Enter pickup location">
+        <br>
+        <input id="destination" type="text" placeholder="Enter destination">
+        <button class="requestNow"> Request Now</button>
+        <button class="schedule"> Schedule for later</button>
+    </div>
+</body>
+
+</html>

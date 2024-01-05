@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #search {
+            padding: 5px 10px;
+            border-width: 1px;
+            border-color: rgb(159, 155, 155);
+            border-radius: 5px;
+            border-style: solid;
+            font-size: 28px;
+            max-width: 100%;
+            max-height: 100%;
+            height: 50px;
+            width: 1000px;
+        }
+        
+         ::placeholder {
+            color: rgb(112, 112, 110);
+            font-size: 10px;
+        }
+        
+        #shadow {
+            border: none;
+            border-radius: 17px;
+            box-shadow: 0px 0px 9px 1px rgba(0, 0, 0, 0.2);
+            padding-left: 15px;
+            object-position: center;
+            width: 370px;
+            padding-top: 5px;
+            font-size: 28px;
+            padding-bottom: 5px;
+            max-width: 100%;
+            max-height: 100%;
+            height: 50px;
+            width: 1000px;
+        }
+        
+        #email {
+            border-style: solid;
+            border-width: 0.5px;
+            border-radius: 4px;
+            padding-left: 15px;
+            object-position: center;
+            width: 370px;
+            font-size: 28px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            max-width: 100%;
+            max-height: 100%;
+            height: 50px;
+            width: 1000px;
+        }
+        
+        #privacy-policy {
+            color: blue;
+        }
+        
+        #privacy-policy:hover {
+            text-decoration: underline;
+        }
+        
+        #btn {
+            background-color: rgb(67, 99, 215);
+            color: white;
+            border: none;
+            border-radius: 18px;
+            padding: 7px 80px;
+            font-size: 80%;
+        }
+        
+        #lrn {
+            background-color: rgb(255, 255, 255);
+            border: 1px;
+            border-style: solid;
+            width: 330px;
+        }
+        
+        #hpn {
+            margin-bottom: 7px;
+            border: none;
+            background-color: transparent;
+            vertical-align: middle;
+            padding-top: 10px;
+        }
+        
+        #tweet {
+            background-color: rgb(72, 179, 251);
+            border-radius: 20px;
+            border: none;
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            vertical-align: middle;
+            height: 17px;
+            width: 50px;
+            text-align: center;
+            font-size: 8px;
+        }
+        
+        #img {
+            margin-top: 3px;
+            vertical-align: middle;
+            height: 25px;
+            mix-blend-mode: multiply;
+            margin-left: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <input id="search" type="text" placeholder="Search">
+
+    <br>
+    <br>
+    <input id="shadow" type="text" placeholder="Search Google or type a URL">
+    <br>
+    <br>
+    <input id="email" type="text" placeholder="Enter Your Email here">
+    <p>By clicking Agree & Join, you agree to the <span id="privacy-policy">Privacy Policy</span></p>
+    <button id="btn">Agree & Join</button>
+
+
+    <br>
+    <br>
+
+    <div id="lrn">
+        <img id="img" src="unnamed.jpg" class="d-block w-100" alt="...">
+
+        <input id="hpn" type="text" placeholder="What's Happening?">
+        <button id="tweet">Tweet</button>
+    </div>
+
+</body>
+
+</html>
