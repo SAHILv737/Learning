@@ -1,0 +1,76 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.Ist-card {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    margin-bottom: 18px;
+}
+
+.IInd-card {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-bottom: 18px;
+}
+
+.IIIrd-card {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-bottom: 18px;
+}
+
+#follow {
+    background-color: #0866FF;
+    height: 30%;
+    width: 80%;
+    margin-left: 80px;
+    margin-top: 25px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    align-items: normal;
+    cursor: pointer;
+}
+
+img {
+    max-width: 300px;
+    max-height: 300px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inline-block;
+    align-items: start;
+}
+
+p {
+    margin: 0;
+}
+
+.name {
+    padding-left: 30px;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.type {
+    padding-left: 30px;
+    padding-top: 14px;
+    font-size: 20px;
+    color: rgb(159, 158, 158);
+}
+
+.popular {
+    padding-left: 30px;
+    padding-top: 2px;
+    font-size: 18px;
+    color: silver;
+}
+
+.text {
+    width: 200px;
+}
